@@ -1,0 +1,230 @@
+
+
+.container__login {
+  background-color: #ffffff;
+  width: 420px;
+  position: relative;
+}
+
+.container__info {
+  flex: 1;
+  background-color: #f4f4f4;
+}
+
+
+
+.container__login,
+.container__info {
+  min-height: 100vh;
+}
+
+.container__login .logo__header {
+  max-width: 130px;
+}
+
+.container__login .navigation-clean.navbar .navbar-nav .nav-link {
+  padding-right: 0;
+}
+
+.container__login nav.navbar.navbar-light {
+  border-bottom: none;
+  position: fixed;
+  width: inherit;
+  z-index: 9;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.container__login .container {
+  width: inherit;
+  position: fixed;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+@media (max-width: 767px) {
+  .container__login nav.navbar.navbar-light,
+  .container__login .container {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .container__info .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (max-width: 1456px) {
+  .container__info {
+    width: calc(100vh - 420px);
+  }
+}
+
+.container__login h1 {
+  color: #2c2c2c;
+  font-family: "Nexa - Extra Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 120px;
+  margin-bottom: 5px;
+}
+
+.container__login .subtitle {
+  height: 28px;
+  font-family: "Nexa - Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #2c2c2c;
+}
+
+.container__login .form-text {
+  color: #272727;
+  font-family: "Nexa - Book";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-top: 12px;
+  padding-right: 40px;
+}
+.container__login .form-control {
+  color: #b5b5b5;
+  font-family: "Nexa - Regular";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 30px;
+  height: 49px;
+  border-radius: 6px;
+}
+
+.container__login .form-control::placeholder {
+  color: #b5b5b5;
+}
+
+.container__login .form-group {
+  margin-bottom: 20px;
+}
+.container__login .form-group label {
+  color: #2c2c2c;
+  font-family: "Nexa - Regular";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.container__login .form-text span {
+  color: #000639;
+  font-family: "Nexa - Bold";
+  font-weight: 700;
+}
+
+.container__login .button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+  font-family: "Nexa - Heavy";
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #409d77;
+  color: #fff;
+}
+
+.container__info {
+  background-color: #f4f4f4;
+}
+
+.container__info .container {
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-bottom: 50px;
+}
+
+.container__info h2 {
+  width: 493px;
+  color: #000639;
+  font-family: "Nexa - Extra Bold";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  padding-top: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container__info .subtitle {
+  text-align: center;
+  width: 519px;
+
+  color: #2c2c2c;
+font-family: "Nexa - Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+  margin: 0 auto;
+}
+
+.container__info .button {
+  width: 202px;
+  height: 56px;
+  color: #ffffff;
+  font-family: "Nexa - Heavy";
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #409d77;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.container__info .about_image {
+  width: 791px;
+  height: auto;
+}
+
+.container__info .about_image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .container__info .about_image:after {
+    content: "";
+    display: block;
+    padding-bottom: 0;
+  }
+}
+
+
+.container__info .about__services-item {
+  padding-left: 56px;
+}
+
+.container__info .about__services-title {
+  color: #000639;
+font-family: "Nexa - Extra Bold";
+font-size: 19px;
+font-weight: 700;
+}
+
+.container__info .brands {
+  background-color: transparent;
+}
+
+.container__info .brands a {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container__info .brands a img {
+  margin: 5px;
+}

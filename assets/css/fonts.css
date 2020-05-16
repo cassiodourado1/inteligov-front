@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Nexa - Bold";
+  src: url('../fonts/nexa-bold.eot');
+  src: url('../fonts/nexa-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/nexa-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa - Extra Bold";
+  src: url('../fonts/nexa-extra-bold.eot');
+  src: url('../fonts/nexa-extra-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/nexa-extra-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa - Heavy";
+  src: url('../fonts/nexa-heavy.eot');
+  src: url('../fonts/nexa-heavy.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/nexa-heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Nexa - Book";
+  src: url('../fonts/nexa-book.eot');
+  src: url('../fonts/nexa-book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/nexa-book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa - Regular";
+  src: url('../fonts/nexa-regular.eot');
+  src: url('../fonts/nexa-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/nexa-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
