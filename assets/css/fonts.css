@@ -43,3 +43,16 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+
+@font-face {
+  font-family: 'hk_groteskregular';
+  src: url('../fonts/hkgrotesk-regular.eot');
+  src: url('../fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/hkgrotesk-regular.woff2') format('woff2'),
+       url('../fonts/hkgrotesk-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

@@ -1,0 +1,274 @@
+.section.section__blog {
+  border-bottom: none;
+}
+
+.section__monitoring {
+  padding-top: 90px;
+}
+
+h2.title--section {
+  font-size: 35px;
+  color: #000639;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 64px;
+  margin-bottom: 0;
+}
+
+p.subtitle {
+  font-size: 18px;
+  color: #2c2c2c;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.monitoring_image {
+  box-shadow: 0px 10px 45px 5px rgba(23, 64, 95, 0.27);
+  border-radius: 8px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+/* STRATEGIC DATA */
+
+.section__strategic-data {
+  background: url(../img/ilustration_strategic.png) no-repeat right center;
+  background-position: calc(50% - -300px) calc(100% - 50px);
+  background-size: 458px 469px;
+}
+.section.section__strategic-data h2 {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.section__strategic-data .subtitle {
+  margin-bottom: 60px;
+}
+
+.strategic-data__box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.strategic-data__item {
+  width: 264px;
+  margin-bottom: 50px;
+}
+
+.strategic-data__item-title {
+  color: #000639;
+  letter-spacing: 0;
+  font-family: "Nexa - Extra Bold";
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.strategic-data__item p {
+  margin-bottom: 0px;
+}
+
+.strategic-data__button {
+  width: 202px;
+  height: 56px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #409d77;
+  color: #ffffff;
+  font-family: "Nexa - Heavy";
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.5 ease-in;
+}
+
+.strategic-data__button:hover {
+  background-color: #ffffff;
+  color: #409d77;
+  border: 1px solid #409d77;
+  text-decoration: none;
+}
+
+/* SECTION DIFFERENTIALS */
+.section__differentials {
+}
+
+.section__differentials .subtitle {
+  margin: 0 auto;
+  max-width: 570px;
+  margin-bottom: 100px;
+}
+
+.differentials-nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px #d8d8d8 solid;
+}
+
+.differentials-nav--item {
+  list-style-type: none;
+  padding-bottom: 20px;
+  cursor: pointer;
+  width: 220px;
+  border-bottom: 4px transparent solid;
+  transition: ease-in all 0.3s;
+}
+
+.differentials-nav--item.is-selected {
+  border-bottom: 4px #000639 solid;
+}
+
+.differentials-nav__title {
+  font-family: "Nexa - Bold";
+  font-size: 17px;
+  color: #b5b5b5;
+  letter-spacing: 0;
+  text-align: center;
+  transition: ease all 0.3s;
+  margin-top: 18px;
+}
+
+.differentials-nav--item.is-selected .differentials-nav__title {
+  color: #000639;
+}
+
+.box__differentials {
+  display: block;
+  overflow: hidden;
+}
+
+.box__differentials-item {
+  padding-top: 60px;
+  width: 100%;
+  height: 450px;
+}
+.differentials-item {
+  width: 579px;
+  height: 388px;
+  background-color: #d8d8d8;
+}
+.differentials-item__image {
+}
+
+.differentials-item__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.differentials-text {
+  padding-top: 24px;
+}
+.differentials-text h3 {
+  color: #000639;
+  font-family: "Nexa - Extra Bold";
+  font-size: 19px;
+}
+.differentials-text p {
+  margin-bottom: 40px;
+  color: #2c2c2c;
+  font-family: "Nexa - Regular";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.differentials-text .action {
+  width: 202px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+background-color: #409d77;
+border-radius: 5px;
+  font-family: "Nexa - Heavy";
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
+
+}
+
+/* SECTION DIFFERENTIALS */
+.section__solution-grm {
+}
+
+.section__solution-grm .subtitle {
+  margin: 0 auto;
+  max-width: 570px;
+}
+
+/* SECTION WORK TOGETHER */
+.section__work-together {
+  position: relative;
+  border-bottom: 1px solid #d8d8d8;
+}
+.section__work-together .container {
+  position: relative;
+}
+.section__work-together:after {
+  content: "";
+  background: url(../img/work-together.svg) no-repeat right center;
+  background-size: 538px 510px;
+  width: 50%;
+  height: 510px;
+  position: absolute;
+  right: 0;
+  top: 270px;
+  background-position-x: 20px;
+}
+.section__work-together h2 {
+  margin-bottom: 47px;
+}
+@media (min-width: 1200px) {
+  .section__work-together {
+    padding: 0;
+    padding-bottom: 209px;
+  }
+  .section__work-together .container {
+    max-width: 1223px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f4f4f4;
+  }
+}
+.section__work-together .container .row {
+  margin: 0 auto;
+}
+.work-together__list {
+  padding: none;
+  margin: none;
+}
+
+.together__list-item {
+}
+
+.together__list-item__title {
+  color: #000639;
+  font-family: "Nexa - Extra Bold";
+  font-size: 19px;
+}
+
+.together__list-item__text {
+  color: #2c2c2c;
+  font-family: "Nexa - Regular";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 33px;
+}
