@@ -778,15 +778,12 @@ span.new-line-span {
 
 .social-links a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
-  background-color: #33383b;
-  border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  margin: 10px;
 }

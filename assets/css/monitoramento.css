@@ -30,6 +30,12 @@ p.subtitle {
   margin-top: 80px;
 }
 
+@media(min-width: 1200px){
+  .monitoring_image {
+    width: 1060px;
+  }
+}
+
 /* STRATEGIC DATA */
 
 .section__strategic-data {
