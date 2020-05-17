@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?qk32hq');
+  src:  url('../fonts/icomoon.eot?qk32hq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?qk32hq') format('truetype'),
+    url('../fonts/icomoon.woff?qk32hq') format('woff'),
+    url('../fonts/icomoon.svg?qk32hq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-auditoria:before {
+  content: "\e900";
+}
+.icon-bi:before {
+  content: "\e901";
+  color: #000639;
+}
+.icon-facebook:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-global:before {
+  content: "\e903";
+}
+.icon-logo:before {
+  content: "\e904";
+}
+.icon-parlament:before {
+  content: "\e905";
+  color: #000639;
+}
+.icon-players:before {
+  content: "\e906";
+}
+.icon-propositions:before {
+  content: "\e907";
+  color: #000639;
+}
+.icon-twitter:before {
+  content: "\e908";
+  color: #fff;
+}

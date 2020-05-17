@@ -102,6 +102,7 @@ p.subtitle {
 
 /* SECTION DIFFERENTIALS */
 .section__differentials {
+  overflow: hidden;
 }
 
 .section__differentials .subtitle {
@@ -133,12 +134,22 @@ p.subtitle {
   border-bottom: 4px #000639 solid;
 }
 
+.differentials-nav--item .icon {
+  font-size: 42px;
+  color: #b5b5b5;
+  transition: ease all 0.3s;
+}
+
+.differentials-nav--item.is-selected .icon  {
+  color: #000639;
+}
+
 .differentials-nav__title {
   font-family: "Nexa - Bold";
   font-size: 17px;
   color: #b5b5b5;
   letter-spacing: 0;
-  text-align: center;
+  text-align: left;
   transition: ease all 0.3s;
   margin-top: 18px;
 }
@@ -149,19 +160,41 @@ p.subtitle {
 
 .box__differentials {
   display: block;
+}
+
+.box__differentials .flickity-viewport {
   overflow: hidden;
 }
 
 .box__differentials-item {
   padding-top: 60px;
   width: 100%;
-  height: 450px;
 }
+
 .differentials-item {
-  width: 579px;
-  height: 388px;
   background-color: #d8d8d8;
+  width: 100%;
+  height: 250px;
 }
+
+@media (min-width: 992px) {
+  .differentials-item {
+    height: 388px !important;
+  }
+
+  .box__differentials-item {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .differentials-item {
+    width: 579px;
+    height: 388px;
+  }
+}
+
+
 .differentials-item__image {
 }
 
@@ -194,14 +227,20 @@ p.subtitle {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-background-color: #409d77;
-border-radius: 5px;
+  background-color: #409d77;
+  border-radius: 5px;
   font-family: "Nexa - Heavy";
   font-size: 13px;
   font-weight: 800;
   line-height: 22px;
   text-transform: uppercase;
+}
 
+@media (max-width: 767px) {
+  .differentials-text .action {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* SECTION DIFFERENTIALS */
