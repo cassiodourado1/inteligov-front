@@ -36,6 +36,15 @@ p.subtitle {
   }
 }
 
+@media(max-width: 768px){
+  .monitoring_image {
+    width: 100%;
+  }
+  .monitoring_image img {
+    max-width: 100%;
+  }
+}
+
 /* STRATEGIC DATA */
 
 .section__strategic-data {

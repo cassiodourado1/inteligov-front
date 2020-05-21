@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>egov</title>
+    <title>InteliGov | Monitoramento legislativo e inteligência de governo</title>
     <meta property="og:type" content="website" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
@@ -16,15 +16,17 @@
     <link rel="stylesheet" href="assets/css/fonts.css" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/geral.css" />
+    <link rel="stylesheet" href="assets/css/icons.css" />
   </head>
 
   <body>
+    <header class="sticky-top header">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean">
       <div class="container">
         <a class="navbar-brand" href="http://toliveira.cc/inteligov/">
           <img
             class="logo__header"
-            src="./assets/img/Logo-oficial.png"
+            src="./assets/img/Logo-oficial.svg"
             alt=""
             srcset=""
           />
@@ -69,6 +71,7 @@
         </div>
       </div>
     </nav>
+  </header>
 
     <section class="section section__subscribe" id="first">
       <div class="container">
@@ -76,7 +79,7 @@
           <div class="col-md-6">
             <span class="about_label">MONITORAMENTO LEGISLATIVO</span>
             <h1>Gerencie a legislação que pode impactar o seu negócio</h1>
-            <p class="default__text">
+            <p class="default__text d-none d-md-block">
               A plataforma de referência em relações governamentais. Uma
               ferramenta que aprende com você e entrega o que você precisa.
             </p>
@@ -102,7 +105,7 @@
         </div>
       </div>
     </section>
-    <div class="brands">
+    <div class="brands d-none d-md-flex">
       <a href="#">
         <img src="assets/img/cabify.png" />
         <img src="assets/img/buzzfeed.png" />
@@ -125,7 +128,7 @@
         </div>
 
         <div class="row about__services">
-          <div class="col-md-4">
+          <div class="col-md-4 about__services__item">
             <img
               src="./assets/img/bi_icon.svg"
               alt="Ícone business Intelligence"
@@ -136,7 +139,7 @@
               atua, facilitando a tomada de decisões.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 about__services__item">
             <img src="./assets/img/parlamentar.svg" alt="Ícone parlamentar" />
             <h3 class="about__services-title">Parlamentares</h3>
             <p class="about__services-text">
@@ -144,7 +147,7 @@
               gráficos intuitivos e inteligentes.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 about__services__item">
             <img src="./assets/img/propositions.svg" alt="Ícone proposições" />
             <h3 class="about__services-title">Proposições</h3>
             <p class="about__services-text">
@@ -398,11 +401,11 @@
       </div>
     </section>
 
-    <section class="section section__subscribe subcribe_footer" id="first">
+    <section class="section section__subscribe subcribe_footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1>Conheça nossos produtos</h1>
+          <div class="col-md-7">
+            <h2>Conheça nossos produtos</h2>
             <p class="default__text">
               A plataforma de referência em relações governamentais. Uma
               ferramenta que aprende com você e entrega o que você precisa.
@@ -418,7 +421,7 @@
                 value="subscribe"
                 id="subscribeBtn"
               >
-                testar agora
+                RECEBER CONTATO
               </button>
             </form>
             <span class="privacy"
@@ -470,20 +473,20 @@
           </div>
           <div class="clearfix"></div>
           <div class="col-md-3">
-            <h4>Blog</h4>
+            <h4 class="link--footer">Blog</h4>
           </div>
           <div class="col-md-1">
-            <h4>Login</h4>
+            <h4 class="link--footer">Login</h4>
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-3">
+          <div class="col-sm-6  col-md-3">
             <p class="company-name">
               © 2020 Inteligov.
             </p>
             <span class="all__rights">Todos os direitos reservados.</span>
           </div>
-          <div class="col-md-2 ml-auto">
+          <div class="col-sm-6  col-md-2 ml-auto">
             <div class="social-links social-icons">
               <a href="#"><i class="icon-facebook"></i></a
               ><a href="#"><i class="icon-twitter"></i></a>
@@ -492,7 +495,20 @@
         </div>
       </div>
     </footer>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+
+    $(window).scroll(function () {
+        const scrollHeight = 300;
+        var pos = $(window).scrollTop();
+        if (pos > scrollHeight) {
+          $("header").addClass("isScroll");
+        } else {
+          $("header").removeClass("isScroll");
+        }
+      });
+    </script>
   </body>
 </html>

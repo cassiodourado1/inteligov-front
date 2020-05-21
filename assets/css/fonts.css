@@ -40,7 +40,7 @@
   src: url('../fonts/nexa-regular.eot');
   src: url('../fonts/nexa-regular.eot?#iefix') format('embedded-opentype'),
        url('../fonts/nexa-regular.woff') format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 

@@ -37,7 +37,7 @@
 }
 
 .navigation-clean .navbar-toggler {
-  border-color: #ddd;
+  border-color: transparent;
 }
 
 .navigation-clean .navbar-toggler:hover, .navigation-clean .navbar-toggler:focus {
