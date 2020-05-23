@@ -1,5 +1,3 @@
-
-
 .container__login {
   background-color: #ffffff;
   width: 420px;
@@ -10,8 +8,6 @@
   flex: 1;
   background-color: #f4f4f4;
 }
-
-
 
 .container__login,
 .container__info {
@@ -161,10 +157,10 @@
   width: 519px;
 
   color: #2c2c2c;
-font-family: "Nexa - Regular";
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
+  font-family: "Nexa - Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
   margin: 0 auto;
 }
 
@@ -202,6 +198,15 @@ line-height: 28px;
   }
 }
 
+@media (max-width: 1199px) {
+  .container__info {
+    overflow-x: hidden;
+  }
+  .container__info .container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
 
 .container__info .about__services-item {
   padding-left: 56px;
@@ -209,9 +214,9 @@ line-height: 28px;
 
 .container__info .about__services-title {
   color: #000639;
-font-family: "Nexa - Extra Bold";
-font-size: 19px;
-font-weight: 700;
+  font-family: "Nexa - Extra Bold";
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .container__info .brands {
