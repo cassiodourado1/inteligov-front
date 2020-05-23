@@ -192,6 +192,21 @@ p.subtitle {
   height: 250px;
 }
 
+@media (max-width: 768px) {
+  .section__differentials {
+    padding-bottom: 36px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .differentials-nav--item {
+    text-align: center;
+  }
+  .differentials-nav__title {
+    padding-right: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
 @media (min-width: 992px) {
   .differentials-item {
     height: 388px !important;
@@ -288,6 +303,16 @@ p.subtitle {
 }
 .section__work-together h2 {
   margin-bottom: 47px;
+}
+@media (max-width: 767px) {
+  .section__work-together {
+    border-bottom: none;
+  }
+  .section__work-together:after {
+    width: 0;
+    height: 0;
+    content: "";
+  }
 }
 @media (min-width: 1200px) {
   .section__work-together {

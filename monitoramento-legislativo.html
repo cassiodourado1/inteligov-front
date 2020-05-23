@@ -536,6 +536,20 @@
           $gallery.flickity("select", index);
         });
       });
+
+      (function () {
+      const carousels = document.querySelectorAll(".blog__container");
+        carousels.forEach((carousel) => {
+          new Flickity(carousel, {
+            cellAlign: "center",
+            contain: false,
+            draggable: true,
+            prevNextButtons: false,
+            watchCSS: true,
+            pageDots: true,
+          });
+        });
+      })();
     </script>
   </body>
 </html>
