@@ -35,6 +35,12 @@ header.isScroll nav.navbar.navbar-light {
   font-weight: 700;
 }
 
+.navigation-clean.navbar-light .navbar-nav .nav-item:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-item:hover {
+  opacity: 0.8;
+  transition: ease-in all 0.3s;
+}
+
 .navigation-clean.navbar-light .navbar-nav .dropdown-toggle {
   width: 260px;
 }
@@ -171,6 +177,12 @@ p.subtitle {
   background-color: #409d77;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+.subscribe__form .subscribe__button:hover,
+.subscribe__form .subscribe__button:focus {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #fff;
 }
 
 .privacy {
@@ -500,8 +512,8 @@ p.subtitle {
   .blog__container .flickity-page-dots .dot.is-selected,
   .product__carousel .flickity-page-dots .dot.is-selected {
     background: #17405f;
-}
-  .product__carousel .flickity-viewport{
+  }
+  .product__carousel .flickity-viewport {
     overflow: hidden;
   }
 
@@ -830,8 +842,8 @@ p.subtitle {
     content: "flickity";
     display: none; /* hide :after */
   }
-  .blog__container .flickity-viewport{
-     width: 100%;
+  .blog__container .flickity-viewport {
+    width: 100%;
   }
 
   .lasts-posts {
@@ -1048,7 +1060,7 @@ footer .all__rights {
   }
 }
 
-@media(max-width: 578px) {
+@media (max-width: 578px) {
   .footer-suport {
     margin-top: 60px;
   }
