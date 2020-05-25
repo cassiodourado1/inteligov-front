@@ -4,6 +4,7 @@ body {
   font-family: "Nexa - Regular";
 }
 
+
 .logo__header {
   width: 157px;
   height: 33px;
@@ -209,7 +210,7 @@ p.subtitle {
     flex-flow: column wrap;
     border: none;
   }
-
+  
   .subscribe__form input {
     border: 1px solid #c8c8c8;
     padding-top: 16px;
@@ -331,17 +332,17 @@ p.subtitle {
   .about_image img {
     max-width: 100%;
   }
-
+  
   .about__services {
     margin-top: 60px;
     margin-left: 15px;
     margin-right: 15px;
   }
-
+  
   .about__services-text {
     text-align: center;
   }
-
+  
   .about__services__item {
     display: flex;
     flex-direction: column;
@@ -520,7 +521,7 @@ p.subtitle {
   .product__carousel .flickity-viewport {
     overflow: hidden;
   }
-
+  
   .product__carousel:after {
     content: "flickity";
     display: none; /* hide :after */
@@ -639,7 +640,7 @@ p.subtitle {
   .recourses .products__img img {
     max-width: 100%;
   }
-
+  
   .products__img:before {
     width: 60%;
     right: 40px;
@@ -702,11 +703,11 @@ p.subtitle {
     content: "";
     display: block;
   }
-
+  
   .section__used-by h2 {
     margin-bottom: 30px;
   }
-
+  
   .used-by__media img {
     max-width: 100%;
   }
@@ -849,7 +850,7 @@ p.subtitle {
   .blog__container .flickity-viewport {
     width: 100%;
   }
-
+  
   .lasts-posts {
     margin-bottom: 30px;
   }
@@ -968,7 +969,7 @@ p.subtitle {
     background-size: 302px 270px;
     background-position: calc(50% - 20px) calc(50% - -50px);
   }
-
+  
   .section__subscribe.subcribe_footer .subscribe__form {
     padding-top: 320px;
   }
@@ -1073,7 +1074,7 @@ footer .all__rights {
     max-width: 50%;
     margin-bottom: 40px;
   }
-
+  
   footer .social-links {
     justify-content: flex-start;
   }
