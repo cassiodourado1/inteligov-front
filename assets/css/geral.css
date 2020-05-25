@@ -45,6 +45,10 @@ header.isScroll nav.navbar.navbar-light {
   width: 260px;
 }
 
+.navigation-clean.navbar-light .navbar-nav a.dropdown-item:hover {
+  opacity: none;
+}
+
 .navigation-clean.navbar-light .navbar-nav .nav-link:after {
   right: 14px;
   position: absolute;
